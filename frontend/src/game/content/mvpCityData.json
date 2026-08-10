@@ -1,0 +1,1814 @@
+{
+ "meta": {
+  "proje": "Fullfilled",
+  "sahne": "Fullfilled_City_FINAL",
+  "surum": "MVP-1"
+ },
+ "coordinateSpace": {
+  "space": "glTF dunya uzayi (Y-up). Tum noktalar GLB ile birebir ayni uzayda.",
+  "axes": "X sag, Y yukari, Z ileri/geri",
+  "note": "2D 'points' dizileri [X, Z] cifti. 3D 'position' dizileri [X, Y, Z]. Y = zemin yuksekligi.",
+  "blenderMapping": "X = blender_x,  Z = -blender_y,  Y = blender_z",
+  "forward": "Tum arac ve karakter prefablarinda ileri yon -Z (Blender'da +Y). rotationY radyandir.",
+  "scale": "1 birim ~ 2.7 m"
+ },
+ "grid": {
+  "roadModule": 3.43648,
+  "parcel": 8.5912,
+  "asphaltWidth": 2.792,
+  "laneWidth": 1.396,
+  "laneOffset": 0.698,
+  "sidewalkWidth": 0.322,
+  "extent": 96.221,
+  "halfExtent": 48.111,
+  "roadAxesX": [
+   -46.392,
+   -34.365,
+   -22.337,
+   -10.309,
+   10.309,
+   22.337,
+   34.365,
+   46.392
+  ],
+  "roadAxesZ": [
+   46.392,
+   34.365,
+   22.337,
+   10.309,
+   -10.309,
+   -22.337,
+   -34.365,
+   -46.392
+  ],
+  "note": "Serit merkezi = yol ekseni +/- laneOffset. Asfalt kenari = eksen +/- laneWidth."
+ },
+ "busStops": [
+  {
+   "id": "STOP_01",
+   "position": [
+    -5.4,
+    0.0241,
+    6.9
+   ],
+   "rotationY": 0.0,
+   "dock": [
+    -5.4,
+    9.611
+   ],
+   "dockY": 0.0,
+   "type": "shelter",
+   "slots": 4,
+   "road": "horizontal"
+  },
+  {
+   "id": "STOP_02",
+   "position": [
+    -0.6,
+    0.0241,
+    6.9
+   ],
+   "rotationY": 0.0,
+   "dock": [
+    -0.6,
+    9.611
+   ],
+   "dockY": 0.0,
+   "type": "shelter",
+   "slots": 3,
+   "road": "horizontal"
+  },
+  {
+   "id": "STOP_03",
+   "position": [
+    4.2,
+    0.0,
+    6.9
+   ],
+   "rotationY": 0.0,
+   "dock": [
+    4.2,
+    9.611
+   ],
+   "dockY": 0.0,
+   "type": "shelter",
+   "slots": 3,
+   "road": "horizontal"
+  },
+  {
+   "id": "STOP_04",
+   "position": [
+    -4.0,
+    0.0241,
+    -6.9
+   ],
+   "rotationY": 3.1416,
+   "dock": [
+    -4.0,
+    -9.611
+   ],
+   "dockY": 0.0,
+   "type": "shelter",
+   "slots": 3,
+   "road": "horizontal"
+  },
+  {
+   "id": "STOP_05",
+   "position": [
+    3.2,
+    0.0,
+    -6.9
+   ],
+   "rotationY": 3.1416,
+   "dock": [
+    3.2,
+    -9.611
+   ],
+   "dockY": 0.0,
+   "type": "shelter",
+   "slots": 3,
+   "road": "horizontal"
+  },
+  {
+   "id": "STOP_06",
+   "position": [
+    -20.987,
+    0.0,
+    16.32
+   ],
+   "rotationY": 1.5708,
+   "dock": [
+    -21.639,
+    16.32
+   ],
+   "dockY": 0.0,
+   "type": "sign_only",
+   "slots": 3,
+   "road": "vertical"
+  },
+  {
+   "id": "STOP_07",
+   "position": [
+    20.987,
+    0.0,
+    -16.32
+   ],
+   "rotationY": -1.5708,
+   "dock": [
+    21.639,
+    -16.32
+   ],
+   "dockY": 0.0,
+   "type": "sign_only",
+   "slots": 4,
+   "road": "vertical"
+  },
+  {
+   "id": "STOP_08",
+   "position": [
+    -16.32,
+    0.0,
+    23.687
+   ],
+   "rotationY": 0.0,
+   "dock": [
+    -16.32,
+    23.035
+   ],
+   "dockY": 0.0,
+   "type": "sign_only",
+   "slots": 3,
+   "road": "horizontal"
+  },
+  {
+   "id": "STOP_09",
+   "position": [
+    16.32,
+    0.0,
+    -23.687
+   ],
+   "rotationY": 3.1416,
+   "dock": [
+    16.32,
+    -23.035
+   ],
+   "dockY": 0.0,
+   "type": "sign_only",
+   "slots": 4,
+   "road": "horizontal"
+  },
+  {
+   "id": "STOP_10",
+   "position": [
+    -8.959,
+    0.0,
+    -28.35
+   ],
+   "rotationY": 1.5708,
+   "dock": [
+    -9.611,
+    -28.35
+   ],
+   "dockY": 0.0,
+   "type": "sign_only",
+   "slots": 4,
+   "road": "vertical"
+  },
+  {
+   "id": "STOP_11",
+   "position": [
+    -28.35,
+    0.0,
+    -11.659
+   ],
+   "rotationY": 3.1416,
+   "dock": [
+    -28.35,
+    -11.007
+   ],
+   "dockY": 0.0,
+   "type": "sign_only",
+   "slots": 4,
+   "road": "horizontal"
+  }
+ ],
+ "stopSpawnPoints": [
+  {
+   "stopId": "STOP_01",
+   "points": [
+    [
+     -6.03,
+     -0.0,
+     6.28
+    ],
+    [
+     -5.61,
+     0.024,
+     6.28
+    ],
+    [
+     -5.19,
+     0.024,
+     6.28
+    ],
+    [
+     -4.77,
+     0.0,
+     6.28
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_02",
+   "points": [
+    [
+     -1.02,
+     0.0,
+     6.28
+    ],
+    [
+     -0.6,
+     0.024,
+     6.28
+    ],
+    [
+     -0.18,
+     0.0,
+     6.28
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_03",
+   "points": [
+    [
+     3.78,
+     0.0,
+     6.28
+    ],
+    [
+     4.2,
+     0.0,
+     6.28
+    ],
+    [
+     4.62,
+     0.0,
+     6.28
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_04",
+   "points": [
+    [
+     -4.42,
+     0.024,
+     -6.28
+    ],
+    [
+     -4.0,
+     0.024,
+     -6.28
+    ],
+    [
+     -3.58,
+     0.024,
+     -6.28
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_05",
+   "points": [
+    [
+     2.78,
+     0.0,
+     -6.28
+    ],
+    [
+     3.2,
+     0.0,
+     -6.28
+    ],
+    [
+     3.62,
+     0.024,
+     -6.28
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_06",
+   "points": [
+    [
+     -20.367,
+     0.369,
+     16.74
+    ],
+    [
+     -20.367,
+     0.369,
+     16.32
+    ],
+    [
+     -20.367,
+     0.369,
+     15.9
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_07",
+   "points": [
+    [
+     20.367,
+     0.369,
+     -15.69
+    ],
+    [
+     20.367,
+     0.369,
+     -16.11
+    ],
+    [
+     20.367,
+     0.369,
+     -16.53
+    ],
+    [
+     20.367,
+     0.369,
+     -16.95
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_08",
+   "points": [
+    [
+     -16.74,
+     0.229,
+     24.307
+    ],
+    [
+     -16.32,
+     0.636,
+     24.307
+    ],
+    [
+     -15.9,
+     0.229,
+     24.307
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_09",
+   "points": [
+    [
+     15.69,
+     0.0,
+     -24.307
+    ],
+    [
+     16.11,
+     0.024,
+     -24.307
+    ],
+    [
+     16.53,
+     0.024,
+     -24.307
+    ],
+    [
+     16.95,
+     0.0,
+     -24.307
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_10",
+   "points": [
+    [
+     -8.339,
+     0.0,
+     -27.72
+    ],
+    [
+     -8.339,
+     0.024,
+     -28.14
+    ],
+    [
+     -8.339,
+     0.0,
+     -28.56
+    ],
+    [
+     -8.339,
+     0.0,
+     -28.98
+    ]
+   ]
+  },
+  {
+   "stopId": "STOP_11",
+   "points": [
+    [
+     -28.98,
+     0.229,
+     -12.279
+    ],
+    [
+     -28.56,
+     0.229,
+     -12.279
+    ],
+    [
+     -28.14,
+     0.229,
+     -12.279
+    ],
+    [
+     -27.72,
+     0.229,
+     -12.279
+    ]
+   ]
+  }
+ ],
+ "ambientSpawnPoints": [
+  {
+   "id": "spp_001",
+   "position": [
+    -40.379,
+    -0.002,
+    44.974
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_002",
+   "position": [
+    -40.379,
+    -0.002,
+    35.783
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_003",
+   "position": [
+    -40.379,
+    -0.002,
+    32.947
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_004",
+   "position": [
+    -35.783,
+    -0.002,
+    28.351
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_005",
+   "position": [
+    -35.783,
+    -0.002,
+    16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_006",
+   "position": [
+    -44.974,
+    -0.002,
+    16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_007",
+   "position": [
+    -35.783,
+    0.043,
+    -0.0
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_008",
+   "position": [
+    -44.974,
+    0.043,
+    -0.0
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_009",
+   "position": [
+    -35.783,
+    -0.002,
+    -16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_010",
+   "position": [
+    -40.379,
+    -0.002,
+    -11.728
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_011",
+   "position": [
+    -40.379,
+    -0.002,
+    -23.755
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_012",
+   "position": [
+    -44.974,
+    -0.002,
+    -28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_013",
+   "position": [
+    -40.379,
+    -0.002,
+    -35.783
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_014",
+   "position": [
+    -35.783,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_015",
+   "position": [
+    -32.947,
+    -0.002,
+    40.379
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_016",
+   "position": [
+    -28.351,
+    -0.002,
+    44.974
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_017",
+   "position": [
+    -23.755,
+    -0.002,
+    28.351
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_018",
+   "position": [
+    -28.351,
+    -0.002,
+    32.947
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_019",
+   "position": [
+    -23.755,
+    -0.002,
+    16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_020",
+   "position": [
+    -32.947,
+    -0.002,
+    16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_021",
+   "position": [
+    -32.947,
+    0.043,
+    -0.0
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_022",
+   "position": [
+    -28.351,
+    -0.002,
+    8.891
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_023",
+   "position": [
+    -23.755,
+    -0.002,
+    -16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_024",
+   "position": [
+    -28.351,
+    -0.002,
+    -20.919
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_025",
+   "position": [
+    -32.947,
+    -0.002,
+    -28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_026",
+   "position": [
+    -28.351,
+    -0.002,
+    -32.947
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_027",
+   "position": [
+    -23.755,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_028",
+   "position": [
+    -32.947,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_029",
+   "position": [
+    -16.323,
+    -0.002,
+    44.974
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_030",
+   "position": [
+    -20.919,
+    -0.002,
+    40.379
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_031",
+   "position": [
+    -20.919,
+    -0.002,
+    28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_032",
+   "position": [
+    -16.323,
+    -0.002,
+    32.947
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_033",
+   "position": [
+    -20.919,
+    -0.002,
+    16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_034",
+   "position": [
+    -16.323,
+    -0.002,
+    11.728
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_035",
+   "position": [
+    -11.728,
+    0.043,
+    -0.0
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_036",
+   "position": [
+    -16.323,
+    -0.002,
+    8.891
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_037",
+   "position": [
+    -20.919,
+    -0.002,
+    -16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_038",
+   "position": [
+    -16.323,
+    -0.002,
+    -11.728
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_039",
+   "position": [
+    -20.919,
+    -0.002,
+    -28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_040",
+   "position": [
+    -16.323,
+    -0.002,
+    -32.947
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_041",
+   "position": [
+    -11.728,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_042",
+   "position": [
+    -16.323,
+    -0.002,
+    -44.974
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_043",
+   "position": [
+    0.0,
+    0.043,
+    44.974
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_044",
+   "position": [
+    0.0,
+    0.043,
+    35.783
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_045",
+   "position": [
+    8.891,
+    -0.002,
+    28.351
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_046",
+   "position": [
+    0.0,
+    0.043,
+    32.947
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_047",
+   "position": [
+    8.891,
+    -0.002,
+    16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_048",
+   "position": [
+    -8.891,
+    -0.002,
+    16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_049",
+   "position": [
+    8.891,
+    0.043,
+    -0.0
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_050",
+   "position": [
+    0.0,
+    0.043,
+    -8.891
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_051",
+   "position": [
+    -8.891,
+    -0.002,
+    -16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_052",
+   "position": [
+    0.0,
+    0.043,
+    -20.919
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_053",
+   "position": [
+    8.891,
+    -0.002,
+    -28.351
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_054",
+   "position": [
+    -8.891,
+    -0.002,
+    -28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_055",
+   "position": [
+    0.0,
+    0.043,
+    -35.783
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_056",
+   "position": [
+    -8.891,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_057",
+   "position": [
+    16.323,
+    -0.002,
+    35.783
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_058",
+   "position": [
+    16.323,
+    -0.002,
+    44.974
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_059",
+   "position": [
+    16.323,
+    -0.002,
+    32.947
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_060",
+   "position": [
+    11.728,
+    -0.002,
+    28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_061",
+   "position": [
+    16.323,
+    -0.002,
+    20.919
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_062",
+   "position": [
+    11.728,
+    -0.002,
+    16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_063",
+   "position": [
+    20.919,
+    0.043,
+    -0.0
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_064",
+   "position": [
+    16.323,
+    -0.002,
+    -8.891
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_065",
+   "position": [
+    16.323,
+    -0.002,
+    -20.919
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_066",
+   "position": [
+    20.469,
+    0.0,
+    -16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_067",
+   "position": [
+    16.323,
+    -0.002,
+    -32.947
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_068",
+   "position": [
+    16.323,
+    -0.002,
+    -23.755
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_069",
+   "position": [
+    20.919,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_070",
+   "position": [
+    11.728,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_071",
+   "position": [
+    32.947,
+    -0.002,
+    40.379
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_072",
+   "position": [
+    23.755,
+    -0.002,
+    40.379
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_073",
+   "position": [
+    23.755,
+    -0.002,
+    28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_074",
+   "position": [
+    32.947,
+    -0.002,
+    28.351
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_075",
+   "position": [
+    32.947,
+    -0.002,
+    16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_076",
+   "position": [
+    23.755,
+    -0.002,
+    16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_077",
+   "position": [
+    23.755,
+    0.043,
+    -0.0
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_078",
+   "position": [
+    32.947,
+    0.043,
+    -0.0
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_079",
+   "position": [
+    32.947,
+    -0.002,
+    -16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_080",
+   "position": [
+    28.351,
+    -0.002,
+    -20.919
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_081",
+   "position": [
+    32.947,
+    -0.002,
+    -28.351
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_082",
+   "position": [
+    28.351,
+    -0.002,
+    -23.755
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_083",
+   "position": [
+    23.755,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_084",
+   "position": [
+    28.351,
+    -0.002,
+    -44.974
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_085",
+   "position": [
+    40.379,
+    -0.002,
+    44.974
+   ],
+   "rotationY": 0.0
+  },
+  {
+   "id": "spp_086",
+   "position": [
+    44.974,
+    -0.002,
+    40.379
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_087",
+   "position": [
+    40.379,
+    -0.002,
+    23.755
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_088",
+   "position": [
+    35.783,
+    -0.002,
+    28.351
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_089",
+   "position": [
+    44.974,
+    -0.002,
+    16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_090",
+   "position": [
+    35.783,
+    -0.002,
+    16.323
+   ],
+   "rotationY": -1.5708
+  },
+  {
+   "id": "spp_091",
+   "position": [
+    44.974,
+    0.043,
+    -0.0
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_092",
+   "position": [
+    40.379,
+    -0.002,
+    -8.891
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_093",
+   "position": [
+    40.379,
+    -0.002,
+    -20.919
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_094",
+   "position": [
+    44.974,
+    -0.002,
+    -16.323
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_095",
+   "position": [
+    44.974,
+    -0.002,
+    -28.351
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_096",
+   "position": [
+    40.379,
+    -0.002,
+    -32.947
+   ],
+   "rotationY": 3.1416
+  },
+  {
+   "id": "spp_097",
+   "position": [
+    44.974,
+    -0.002,
+    -40.379
+   ],
+   "rotationY": 1.5708
+  },
+  {
+   "id": "spp_098",
+   "position": [
+    40.379,
+    -0.002,
+    -44.974
+   ],
+   "rotationY": 3.1416
+  }
+ ],
+ "trafficRoutes": [
+  {
+   "id": "traffic_outer_loop",
+   "points": [
+    [
+     47.09,
+     47.09
+    ],
+    [
+     47.09,
+     -47.09
+    ],
+    [
+     -47.09,
+     -47.09
+    ],
+    [
+     -47.09,
+     47.09
+    ],
+    [
+     47.09,
+     47.09
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "SPW_CAR_01",
+    "SPW_CAR_04",
+    "SPW_CAR_07",
+    "SPW_CAR_09"
+   ],
+   "count": 10,
+   "not": "dis halka, saat yonunun tersi"
+  },
+  {
+   "id": "traffic_mid_loop",
+   "points": [
+    [
+     -21.639,
+     21.639
+    ],
+    [
+     -21.639,
+     -21.639
+    ],
+    [
+     21.639,
+     -21.639
+    ],
+    [
+     21.639,
+     21.639
+    ],
+    [
+     -21.639,
+     21.639
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "SPW_CAR_02",
+    "SPW_CAR_03",
+    "SPW_CAR_06",
+    "SPW_CAR_10"
+   ],
+   "count": 8,
+   "not": "orta halka, saat yonu"
+  },
+  {
+   "id": "traffic_inner_loop",
+   "points": [
+    [
+     11.007,
+     11.007
+    ],
+    [
+     11.007,
+     -11.007
+    ],
+    [
+     -11.007,
+     -11.007
+    ],
+    [
+     -11.007,
+     11.007
+    ],
+    [
+     11.007,
+     11.007
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "SPW_CAR_05",
+    "SPW_CAR_08"
+   ],
+   "count": 5,
+   "not": "meydan cevresi"
+  },
+  {
+   "id": "traffic_cross_ns",
+   "points": [
+    [
+     -9.611,
+     48.392
+    ],
+    [
+     -9.611,
+     -48.392
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "SPW_CAR_01",
+    "SPW_CAR_06"
+   ],
+   "count": 4,
+   "not": "kuzey-guney gecis"
+  },
+  {
+   "id": "traffic_cross_ew",
+   "points": [
+    [
+     -48.392,
+     11.007
+    ],
+    [
+     48.392,
+     11.007
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "SPW_CAR_04",
+    "SPW_CAR_10"
+   ],
+   "count": 4,
+   "not": "dogu-bati gecis"
+  }
+ ],
+ "policeRoutes": [
+  {
+   "id": "police_main_patrol",
+   "points": [
+    [
+     -33.667,
+     33.667
+    ],
+    [
+     -33.667,
+     -33.667
+    ],
+    [
+     33.667,
+     -33.667
+    ],
+    [
+     33.667,
+     33.667
+    ],
+    [
+     -33.667,
+     33.667
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "Fullfilled_Police_Car"
+   ],
+   "count": 2,
+   "not": "genis devriye"
+  },
+  {
+   "id": "police_center_watch",
+   "points": [
+    [
+     -9.611,
+     9.611
+    ],
+    [
+     -9.611,
+     -9.611
+    ],
+    [
+     9.611,
+     -9.611
+    ],
+    [
+     9.611,
+     9.611
+    ],
+    [
+     -9.611,
+     9.611
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "Fullfilled_Police_Car"
+   ],
+   "count": 1,
+   "not": "meydan denetimi"
+  }
+ ],
+ "taxiRoutes": [
+  {
+   "id": "pirate_taxi_north",
+   "points": [
+    [
+     23.035,
+     11.007
+    ],
+    [
+     23.035,
+     -35.063
+    ],
+    [
+     -23.035,
+     -35.063
+    ],
+    [
+     -23.035,
+     11.007
+    ],
+    [
+     23.035,
+     11.007
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "Fullfilled_Taxi"
+   ],
+   "count": 3,
+   "not": "kuzey hattinda korsan"
+  },
+  {
+   "id": "pirate_taxi_south",
+   "points": [
+    [
+     23.035,
+     35.063
+    ],
+    [
+     23.035,
+     -11.007
+    ],
+    [
+     -23.035,
+     -11.007
+    ],
+    [
+     -23.035,
+     35.063
+    ],
+    [
+     23.035,
+     35.063
+    ]
+   ],
+   "y": 0.0,
+   "vehicleTypes": [
+    "Fullfilled_Taxi"
+   ],
+   "count": 3,
+   "not": "guney hattinda korsan"
+  }
+ ],
+ "prefabs": {
+  "buses": [
+   {
+    "id": "SPW_BUS_T1_dolmus",
+    "tier": 1,
+    "size": [
+     0.895,
+     2.1,
+     1.007
+    ],
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_BUS_T2_minibus",
+    "tier": 2,
+    "size": [
+     1.074,
+     2.4,
+     1.338
+    ],
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_BUS_T3_midibus",
+    "tier": 3,
+    "size": [
+     1.044,
+     3.1,
+     1.243
+    ],
+    "file": "Fullfilled_Prefabs.glb"
+   }
+  ],
+  "cars": [
+   {
+    "id": "SPW_CAR_01",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_02",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_03",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_04",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_05",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_06",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_07",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_08",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_09",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_CAR_10",
+    "file": "Fullfilled_Prefabs.glb"
+   }
+  ],
+  "people": [
+   {
+    "id": "SPW_PPL_01",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_02",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_03",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_04",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_05",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_06",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_07",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_08",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_09",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_10",
+    "file": "Fullfilled_Prefabs.glb"
+   },
+   {
+    "id": "SPW_PPL_11_blue",
+    "file": "Fullfilled_Prefabs.glb",
+    "pose": "idle"
+   },
+   {
+    "id": "SPW_PPL_12_brown",
+    "file": "Fullfilled_Prefabs.glb",
+    "pose": "idle"
+   },
+   {
+    "id": "SPW_PPL_13_green",
+    "file": "Fullfilled_Prefabs.glb",
+    "pose": "idle"
+   },
+   {
+    "id": "SPW_PPL_14_yellow",
+    "file": "Fullfilled_Prefabs.glb",
+    "pose": "idle"
+   }
+  ],
+  "props": [
+   {
+    "id": "SPW_PROP_bussign",
+    "file": "Fullfilled_Prefabs.glb"
+   }
+  ],
+  "vehicles": [
+   {
+    "id": "Fullfilled_Police_Car",
+    "size": [
+     0.716,
+     2.05,
+     0.648
+    ],
+    "file": "vehicles/Fullfilled_Police_Car.glb"
+   },
+   {
+    "id": "Fullfilled_Taxi",
+    "size": [
+     0.916,
+     1.7,
+     0.967
+    ],
+    "file": "vehicles/Fullfilled_Taxi.glb"
+   }
+  ]
+ },
+ "landmarks": {
+  "meydanTerminal": [
+   0,
+   0
+  ],
+  "okul": [
+   -4.296,
+   28.35
+  ],
+  "benzinIstasyonu": [
+   28.35,
+   4.296
+  ]
+ }
+}

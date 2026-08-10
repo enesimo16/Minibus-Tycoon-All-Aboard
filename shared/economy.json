@@ -1,0 +1,1556 @@
+{
+  "fare": {
+    "full": 40,
+    "student": 30,
+    "tipMin": 10,
+    "tipMax": 60
+  },
+  "bus": {
+    "baseSeatCapacity": 10,
+    "baseSpeedMetersPerSec": 8
+  },
+  "extraBuses": {
+    "purchaseCosts": [
+      160000,
+      240000,
+      350000
+    ],
+    "colors": [
+      "#f59e0b",
+      "#ef4444",
+      "#8b5cf6",
+      "#06b6d4"
+    ],
+    "names": [
+      "Dolmuş #2",
+      "Dolmuş #3",
+      "Dolmuş #4"
+    ],
+    "idleIncomePerSecond": 18,
+    "dailyGrossIncome": 19000
+  },
+  "drivers": [
+    {
+      "id": "sukru",
+      "name": "Şükrü",
+      "nickname": "Şimşek",
+      "speedMultiplier": 1.3,
+      "efficiency": 0.72,
+      "salaryShare": 0.18,
+      "hireCost": 18000,
+      "portraitPath": "/drivers/sofor-01.png",
+      "dailySalary": 2700,
+      "punctuality": 0.55,
+      "service": 0.4,
+      "reliability": 0.45,
+      "coolness": 0.35,
+      "personality": "aceleci",
+      "strongTags": [
+        "express",
+        "event"
+      ],
+      "weakTags": [
+        "hospital"
+      ]
+    },
+    {
+      "id": "ramazan",
+      "name": "Ramazan",
+      "nickname": "Sakin",
+      "speedMultiplier": 1,
+      "efficiency": 0.88,
+      "salaryShare": 0.12,
+      "hireCost": 22000,
+      "portraitPath": "/drivers/sofor-02.png",
+      "dailySalary": 2200,
+      "punctuality": 0.7,
+      "service": 0.8,
+      "reliability": 0.8,
+      "coolness": 0.85,
+      "personality": "sakin",
+      "strongTags": [
+        "hospital",
+        "school"
+      ],
+      "weakTags": [
+        "express"
+      ]
+    },
+    {
+      "id": "cevdet",
+      "name": "Cevdet",
+      "nickname": "Kurt",
+      "speedMultiplier": 1.1,
+      "efficiency": 0.82,
+      "salaryShare": 0.14,
+      "hireCost": 20000,
+      "portraitPath": "/drivers/sofor-03.png",
+      "dailySalary": 2400,
+      "punctuality": 0.65,
+      "service": 0.55,
+      "reliability": 0.8,
+      "coolness": 0.75,
+      "personality": "tecrubeli",
+      "strongTags": [
+        "night",
+        "industrial"
+      ],
+      "weakTags": [
+        "school"
+      ]
+    },
+    {
+      "id": "turgut",
+      "name": "Turgut",
+      "nickname": "Tribün",
+      "speedMultiplier": 1.2,
+      "efficiency": 0.67,
+      "salaryShare": 0.2,
+      "hireCost": 15000,
+      "portraitPath": "/drivers/sofor-04.png",
+      "dailySalary": 2900,
+      "punctuality": 0.5,
+      "service": 0.85,
+      "reliability": 0.55,
+      "coolness": 0.6,
+      "personality": "sosyal",
+      "strongTags": [
+        "event",
+        "express"
+      ],
+      "weakTags": [
+        "hospital"
+      ]
+    },
+    {
+      "id": "naciye",
+      "name": "Naciye",
+      "nickname": "Hanım Şoför",
+      "speedMultiplier": 0.95,
+      "efficiency": 0.94,
+      "salaryShare": 0.1,
+      "hireCost": 28000,
+      "portraitPath": "/drivers/sofor-05.png",
+      "dailySalary": 2500,
+      "punctuality": 0.9,
+      "service": 0.85,
+      "reliability": 0.88,
+      "coolness": 0.7,
+      "personality": "dakik",
+      "strongTags": [
+        "school",
+        "hospital"
+      ],
+      "weakTags": [
+        "express"
+      ]
+    },
+    {
+      "id": "aziz",
+      "name": "Aziz",
+      "nickname": "Amca",
+      "speedMultiplier": 0.9,
+      "efficiency": 0.84,
+      "salaryShare": 0.1,
+      "hireCost": 16000,
+      "portraitPath": "/drivers/sofor-06.png",
+      "dailySalary": 1700,
+      "punctuality": 0.75,
+      "service": 0.7,
+      "reliability": 0.85,
+      "coolness": 0.8,
+      "personality": "tedbirli",
+      "strongTags": [
+        "school",
+        "industrial"
+      ],
+      "weakTags": [
+        "express"
+      ]
+    },
+    {
+      "id": "deniz",
+      "name": "Deniz",
+      "nickname": "Yeni Nesil",
+      "speedMultiplier": 1.15,
+      "efficiency": 0.76,
+      "salaryShare": 0.16,
+      "hireCost": 19000,
+      "portraitPath": "/drivers/sofor-07.png",
+      "dailySalary": 2300,
+      "punctuality": 0.6,
+      "service": 0.75,
+      "reliability": 0.55,
+      "coolness": 0.55,
+      "personality": "enerjik",
+      "strongTags": [
+        "express",
+        "event"
+      ],
+      "weakTags": [
+        "night"
+      ]
+    },
+    {
+      "id": "hasan",
+      "name": "Hasan",
+      "nickname": "Fırtına",
+      "speedMultiplier": 1.35,
+      "efficiency": 0.58,
+      "salaryShare": 0.22,
+      "hireCost": 13000,
+      "portraitPath": "/drivers/sofor-08.png",
+      "dailySalary": 3000,
+      "punctuality": 0.45,
+      "service": 0.35,
+      "reliability": 0.3,
+      "coolness": 0.25,
+      "personality": "cesur",
+      "strongTags": [
+        "express",
+        "event"
+      ],
+      "weakTags": [
+        "hospital"
+      ]
+    },
+    {
+      "id": "fatma",
+      "name": "Fatma",
+      "nickname": "Tedbirli",
+      "speedMultiplier": 0.85,
+      "efficiency": 0.96,
+      "salaryShare": 0.08,
+      "hireCost": 30000,
+      "portraitPath": "/drivers/sofor-09.png",
+      "dailySalary": 1900,
+      "punctuality": 0.92,
+      "service": 0.9,
+      "reliability": 0.95,
+      "coolness": 0.88,
+      "personality": "tedbirli",
+      "strongTags": [
+        "hospital",
+        "school"
+      ],
+      "weakTags": [
+        "express"
+      ]
+    },
+    {
+      "id": "ibrahim",
+      "name": "İbrahim",
+      "nickname": "Orta Yol",
+      "speedMultiplier": 1,
+      "efficiency": 0.78,
+      "salaryShare": 0.14,
+      "hireCost": 18000,
+      "portraitPath": "/drivers/sofor-10.png",
+      "dailySalary": 2100,
+      "punctuality": 0.65,
+      "service": 0.65,
+      "reliability": 0.65,
+      "coolness": 0.65,
+      "personality": "dengeli",
+      "strongTags": [
+        "school",
+        "industrial"
+      ],
+      "weakTags": [
+        "event"
+      ]
+    },
+    {
+      "id": "nazmi",
+      "name": "Nazmi",
+      "nickname": "Gazcı",
+      "speedMultiplier": 1.25,
+      "efficiency": 0.62,
+      "salaryShare": 0.2,
+      "hireCost": 14000,
+      "portraitPath": "/drivers/sofor-11.png",
+      "dailySalary": 2800,
+      "punctuality": 0.5,
+      "service": 0.4,
+      "reliability": 0.4,
+      "coolness": 0.3,
+      "personality": "hizli",
+      "strongTags": [
+        "express",
+        "night"
+      ],
+      "weakTags": [
+        "hospital"
+      ]
+    },
+    {
+      "id": "ayse",
+      "name": "Ayşe",
+      "nickname": "Tez Canlı",
+      "speedMultiplier": 1.1,
+      "efficiency": 0.86,
+      "salaryShare": 0.12,
+      "hireCost": 24000,
+      "portraitPath": "/drivers/sofor-12.png",
+      "dailySalary": 2400,
+      "punctuality": 0.7,
+      "service": 0.78,
+      "reliability": 0.68,
+      "coolness": 0.55,
+      "personality": "aceleci",
+      "strongTags": [
+        "event",
+        "school"
+      ],
+      "weakTags": [
+        "night"
+      ]
+    },
+    {
+      "id": "selim",
+      "name": "Selim",
+      "nickname": "Usta",
+      "speedMultiplier": 1.05,
+      "efficiency": 0.9,
+      "salaryShare": 0.12,
+      "hireCost": 26000,
+      "portraitPath": "/drivers/sofor-13.png",
+      "dailySalary": 2350,
+      "punctuality": 0.78,
+      "service": 0.75,
+      "reliability": 0.85,
+      "coolness": 0.82,
+      "personality": "usta",
+      "strongTags": [
+        "industrial",
+        "night"
+      ],
+      "weakTags": [
+        "event"
+      ]
+    },
+    {
+      "id": "emine",
+      "name": "Emine",
+      "nickname": "Dakik",
+      "speedMultiplier": 0.98,
+      "efficiency": 0.97,
+      "salaryShare": 0.09,
+      "hireCost": 32000,
+      "portraitPath": "/drivers/sofor-14.png",
+      "dailySalary": 2250,
+      "punctuality": 0.95,
+      "service": 0.82,
+      "reliability": 0.9,
+      "coolness": 0.78,
+      "personality": "dakik",
+      "strongTags": [
+        "hospital",
+        "school"
+      ],
+      "weakTags": [
+        "express"
+      ]
+    },
+    {
+      "id": "murat",
+      "name": "Murat",
+      "nickname": "Gececi",
+      "speedMultiplier": 1.18,
+      "efficiency": 0.74,
+      "salaryShare": 0.17,
+      "hireCost": 17500,
+      "portraitPath": "/drivers/sofor-15.png",
+      "dailySalary": 2650,
+      "punctuality": 0.68,
+      "service": 0.6,
+      "reliability": 0.72,
+      "coolness": 0.8,
+      "personality": "gececi",
+      "strongTags": [
+        "night",
+        "industrial"
+      ],
+      "weakTags": [
+        "school"
+      ]
+    },
+    {
+      "id": "zeynep",
+      "name": "Zeynep",
+      "nickname": "Rota",
+      "speedMultiplier": 1.08,
+      "efficiency": 0.92,
+      "salaryShare": 0.11,
+      "hireCost": 29000,
+      "portraitPath": "/drivers/sofor-16.png",
+      "dailySalary": 2450,
+      "punctuality": 0.8,
+      "service": 0.8,
+      "reliability": 0.88,
+      "coolness": 0.75,
+      "personality": "guvenilir",
+      "strongTags": [
+        "school",
+        "event"
+      ],
+      "weakTags": [
+        "night"
+      ]
+    }
+  ],
+  "upgrades": {
+    "motorCosts": [
+      800,
+      2500,
+      7000,
+      18000,
+      45000
+    ],
+    "motorSpeedBonusPerLevel": 0.15,
+    "seatCosts": [
+      1500,
+      5000,
+      15000
+    ],
+    "seatCapacityLevels": [
+      10,
+      14,
+      17,
+      20
+    ],
+    "soundCosts": [
+      1000,
+      3000,
+      8000
+    ],
+    "soundSatisfactionPerSecondPerLevel": 0.03,
+    "cashRegisterCost": 2500
+  },
+  "offRoute": {
+    "offerChance": 0.15,
+    "offerWindowSeconds": 3,
+    "detourSeconds": 5,
+    "fareMultiplierMin": 2,
+    "fareMultiplierMax": 4,
+    "attentionGainPerSecond": 9,
+    "attentionDecaySeconds": 4,
+    "catchChanceAtFullAttention": 0.6,
+    "firstCatchPenaltyMultiplier": 2
+  },
+  "secondLine": {
+    "openCost": 300000,
+    "wealthMultiplier": 1.5,
+    "driverHireCost": 120000,
+    "idleIncomePerSecond": 24,
+    "dailyGrossIncome": 26000
+  },
+  "idle": {
+    "offlineCapHours": 8
+  },
+  "save": {
+    "autosaveIntervalSeconds": 60
+  },
+  "stopQueue": {
+    "growthPerSecond": 0.15,
+    "maxWaiting": 6
+  },
+  "decision": {
+    "leadMeters": 28,
+    "windowSeconds": 5,
+    "geciSpeedMultiplier": 1.3
+  },
+  "satisfaction": {
+    "initial": 60,
+    "demandMultiplierAtZero": 0.5,
+    "demandMultiplierAtHundred": 1.5,
+    "changeCorrectBonus": 4,
+    "changeWrongPenalty": 5,
+    "studentAcceptBonus": 3,
+    "studentRejectPenalty": 1,
+    "overflowPenalty": 3,
+    "speedingPenaltyPerSecond": 0.6,
+    "moodAngryBelow": 25,
+    "moodUnhappyBelow": 45,
+    "moodHappyAbove": 70
+  },
+  "events": {
+    "studentEventChance": 0.25,
+    "changeTimeoutSeconds": 4,
+    "changeBillOptions": [
+      20,
+      50,
+      100
+    ],
+    "changeChoice": {
+      "shortChangeKeepRatio": 0.5,
+      "generousExtraRatio": 0.5,
+      "shortChangeSatisfactionPenalty": 9,
+      "generousSatisfactionBonus": 8,
+      "timeoutSatisfactionPenalty": 3
+    }
+  },
+  "social": {
+    "checkpointCost": 90000,
+    "checkpointCatchChance": 0.5,
+    "raidDailyLimitPerHost": 3,
+    "raidStealPercent": 0.05,
+    "raidStealCap": 5000
+  },
+  "dropoff": {
+    "stopRequestChance": 0.28,
+    "roadsideRequestChance": 0.2,
+    "roadsideMinDelay": 2.5,
+    "roadsideMaxDelay": 7,
+    "windowSeconds": 5,
+    "roadsidePauseSeconds": 2.5,
+    "roadsideTipAmount": 40,
+    "stopAcceptBonus": 3,
+    "roadsideAcceptBonus": 5,
+    "rejectPenalty": 7,
+    "promiseBreakPenalty": 12
+  },
+  "time": {
+    "gameMinutesPerRealSecond": 2,
+    "nightStartHour": 22,
+    "nightEndHour": 6
+  },
+  "speed": {
+    "legalLimitKmh": 30,
+    "limiterMinKmh": 15,
+    "limiterMaxKmh": 55,
+    "limiterStepKmh": 5,
+    "limiterDefaultKmh": 30,
+    "riskGainPerSecond": 7,
+    "riskDecayPerSecond": 4
+  },
+  "police": {
+    "catchRiskThreshold": 100,
+    "maxCatchChancePerSecond": 0,
+    "nightCatchMultiplier": 1.8,
+    "maxCombinedRiskMultiplier": 1.5,
+    "detourRiskGainPerSecond": 10,
+    "fines": [
+      1500,
+      3500,
+      9000,
+      25000
+    ],
+    "suspensionGameMinutes": 180,
+    "newVehicleCost": 850000,
+    "satisfactionPenalty": 10,
+    "riskDecayPerSecond": 1.1,
+    "riskAfterPenalty": 0,
+    "globalRisk": {
+      "speedPerSecond": 7,
+      "detourAccept": 18,
+      "detourPerSecond": 3.5,
+      "illegalNightShiftPerSecond": 0.11,
+      "wrongChange": 10,
+      "rejectStudent": 2,
+      "overflowAccept": 8,
+      "rejectStopDropoff": 9,
+      "rejectRoadsideDropoff": 6,
+      "breakStopPromise": 18,
+      "roadsideStop": 2,
+      "offrouteCaughtRemoved": true
+    }
+  },
+  "driverFatigue": {
+    "maxShiftGameMinutes": 480,
+    "warningShiftGameMinutes": 420,
+    "policeRiskPerExtraGameHour": 6
+  },
+  "driverMorale": {
+    "initial": 70,
+    "gainOnGoodDay": 6,
+    "lossOnBadDay": 10,
+    "goodDayGrades": [
+      "S+",
+      "S",
+      "A+",
+      "A"
+    ],
+    "badDayGrades": [
+      "D",
+      "F"
+    ]
+  },
+  "driverScenarioTags": [
+    "express",
+    "night",
+    "rain",
+    "event",
+    "hospital",
+    "school",
+    "industrial"
+  ],
+  "routes": {
+    "starter-center": {
+      "profile": "neighborhood",
+      "demandMultiplier": 0.9,
+      "riskMultiplier": 0.85,
+      "recommendedTrait": "service"
+    },
+    "main-city": {
+      "profile": "student",
+      "demandMultiplier": 1.15,
+      "riskMultiplier": 0.95,
+      "recommendedTrait": "punctuality"
+    },
+    "west-worker": {
+      "profile": "worker",
+      "demandMultiplier": 1.1,
+      "riskMultiplier": 1.05,
+      "recommendedTrait": "reliability"
+    },
+    "premium-outer": {
+      "profile": "patient",
+      "demandMultiplier": 0.95,
+      "riskMultiplier": 0.8,
+      "recommendedTrait": "coolness"
+    },
+    "north-loop": {
+      "profile": "nightOwl",
+      "demandMultiplier": 0.85,
+      "riskMultiplier": 1.3,
+      "recommendedTrait": "coolness"
+    },
+    "east-express": {
+      "profile": "commuter",
+      "demandMultiplier": 1.05,
+      "riskMultiplier": 1.25,
+      "recommendedTrait": "speed"
+    },
+    "south-coast": {
+      "profile": "tourist",
+      "demandMultiplier": 1.2,
+      "riskMultiplier": 0.9,
+      "recommendedTrait": "economy"
+    },
+    "grand-ring": {
+      "profile": "mixed",
+      "demandMultiplier": 1,
+      "riskMultiplier": 1.1,
+      "recommendedTrait": "economy"
+    }
+  },
+  "routeMastery": {
+    "maxLevel": 10,
+    "xpPerGoodDay": 40,
+    "levelThresholds": [
+      0,
+      60,
+      150,
+      280,
+      450,
+      660,
+      910,
+      1200,
+      1530,
+      1900
+    ]
+  },
+  "cityEvents": {
+    "secondEventLevel": 12,
+    "counterEffectRatio": 0.5,
+    "templates": [
+      {
+        "id": "roadwork",
+        "severity": "medium",
+        "demandDelta": -0.1,
+        "riskDelta": 0.1,
+        "fareDelta": 0,
+        "satisfactionDrift": -0.02,
+        "counterCost": 4000
+      },
+      {
+        "id": "heatwave",
+        "severity": "medium",
+        "demandDelta": 0.15,
+        "riskDelta": 0,
+        "fareDelta": 0,
+        "satisfactionDrift": -0.03,
+        "counterCost": 3000
+      },
+      {
+        "id": "breakdown",
+        "severity": "high",
+        "demandDelta": 0,
+        "riskDelta": 0.05,
+        "fareDelta": -0.1,
+        "satisfactionDrift": -0.02,
+        "counterCost": 6000
+      },
+      {
+        "id": "rain",
+        "severity": "medium",
+        "demandDelta": 0.2,
+        "riskDelta": 0.2,
+        "fareDelta": 0,
+        "satisfactionDrift": -0.01,
+        "counterCost": 3500
+      },
+      {
+        "id": "festival",
+        "severity": "high",
+        "demandDelta": 0.3,
+        "riskDelta": 0.05,
+        "fareDelta": 0.15,
+        "satisfactionDrift": 0,
+        "counterCost": 2000
+      },
+      {
+        "id": "matchday",
+        "severity": "high",
+        "demandDelta": 0.25,
+        "riskDelta": 0.1,
+        "fareDelta": 0.1,
+        "satisfactionDrift": -0.01,
+        "counterCost": 2500
+      },
+      {
+        "id": "policeCheck",
+        "severity": "medium",
+        "demandDelta": 0,
+        "riskDelta": 0.3,
+        "fareDelta": 0,
+        "satisfactionDrift": 0,
+        "counterCost": 5000
+      },
+      {
+        "id": "schoolRush",
+        "severity": "low",
+        "demandDelta": 0.2,
+        "riskDelta": 0,
+        "fareDelta": -0.05,
+        "satisfactionDrift": -0.01,
+        "counterCost": 2000
+      }
+    ]
+  },
+  "tariff": {
+    "morningPeak": {
+      "startHour": 7,
+      "endHour": 9,
+      "multiplier": 1.3,
+      "label": "Sabah Piki",
+      "satDeltaPerPassenger": -0.4
+    },
+    "eveningPeak": {
+      "startHour": 17,
+      "endHour": 19,
+      "multiplier": 1.25,
+      "label": "Akşam Piki",
+      "satDeltaPerPassenger": -0.25
+    },
+    "night": {
+      "multiplier": 0.85,
+      "label": "Gece Tarife",
+      "satDeltaPerPassenger": 0.35
+    },
+    "normal": {
+      "multiplier": 1,
+      "label": "Normal",
+      "satDeltaPerPassenger": 0
+    }
+  },
+  "goals": {
+    "earnTargets": [
+      500,
+      1500,
+      3000,
+      6000
+    ],
+    "boardTargets": [
+      30,
+      80,
+      150,
+      300
+    ],
+    "durTargets": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "offrouteTargets": [
+      1,
+      3,
+      5
+    ],
+    "earnRewardRatio": 0.15,
+    "boardRewardPerPassenger": 5,
+    "durRewardPerStop": 15,
+    "offrouteRewardPerTrip": 150
+  },
+  "chanceGames": {
+    "dailyBudgetLimit": 50000,
+    "recentResultLimit": 8,
+    "minimumReserve": 0,
+    "performanceBoostMaxRatio": 0.5,
+    "largeWinThreshold": 150000,
+    "wheel": {
+      "stake": 2500,
+      "maxSpinsPerDay": 5,
+      "segments": [
+        {
+          "id": "empty",
+          "label": "Boş",
+          "multiplier": 0,
+          "weight": 30,
+          "tone": "muted"
+        },
+        {
+          "id": "small",
+          "label": "Küçük Ödül",
+          "multiplier": 1.2,
+          "weight": 28,
+          "tone": "blue"
+        },
+        {
+          "id": "medium",
+          "label": "Orta Ödül",
+          "multiplier": 2,
+          "weight": 18,
+          "tone": "green"
+        },
+        {
+          "id": "jackpot",
+          "label": "Mahalle Şansı",
+          "multiplier": 5,
+          "weight": 7,
+          "tone": "gold"
+        },
+        {
+          "id": "rare",
+          "label": "Büyük Patlama",
+          "multiplier": 20,
+          "weight": 1,
+          "tone": "red"
+        },
+        {
+          "id": "cashback",
+          "label": "Para İadesi",
+          "multiplier": 1,
+          "weight": 16,
+          "tone": "amber"
+        }
+      ]
+    },
+    "plate": {
+      "stake": 10000,
+      "multiplier": 1.8,
+      "maxPlaysPerDay": 5
+    },
+    "lottery": {
+      "ticketCost": 25000,
+      "maxTicketsPerDay": 2,
+      "prizes": [
+        {
+          "id": "none",
+          "label": "Bilet yanış",
+          "amount": 0,
+          "weight": 72,
+          "tone": "muted"
+        },
+        {
+          "id": "small",
+          "label": "Küçük ikramiye",
+          "amount": 75000,
+          "weight": 18,
+          "tone": "blue"
+        },
+        {
+          "id": "medium",
+          "label": "Orta ikramiye",
+          "amount": 350000,
+          "weight": 7,
+          "tone": "green"
+        },
+        {
+          "id": "large",
+          "label": "Büyük ikramiye",
+          "amount": 1500000,
+          "weight": 2.5,
+          "tone": "gold"
+        },
+        {
+          "id": "jackpot",
+          "label": "Garaj ikramiyesi",
+          "amount": 5000000,
+          "weight": 0.5,
+          "tone": "red"
+        }
+      ]
+    },
+    "envelope": {
+      "stake": 15000,
+      "maxPlaysPerDay": 3,
+      "outcomes": [
+        {
+          "id": "lose",
+          "label": "Boş zarf",
+          "payout": 0,
+          "weight": 45,
+          "tone": "red"
+        },
+        {
+          "id": "refund",
+          "label": "Zarf iadesi",
+          "payout": 15000,
+          "weight": 20,
+          "tone": "muted"
+        },
+        {
+          "id": "double",
+          "label": "Kalın zarf",
+          "payout": 45000,
+          "weight": 25,
+          "tone": "green"
+        },
+        {
+          "id": "rare",
+          "label": "Muhtar zarfı",
+          "payout": 150000,
+          "weight": 10,
+          "tone": "gold"
+        }
+      ]
+    },
+    "coupon": {
+      "stake": 12000,
+      "maxPlaysPerDay": 4,
+      "outcomes": [
+        {
+          "id": "miss",
+          "label": "Kupon yattı",
+          "payout": 0,
+          "weight": 50,
+          "tone": "red"
+        },
+        {
+          "id": "twoLegs",
+          "label": "2 durak tuttu",
+          "payout": 30000,
+          "weight": 26,
+          "tone": "blue"
+        },
+        {
+          "id": "threeLegs",
+          "label": "3 durak tuttu",
+          "payout": 90000,
+          "weight": 12,
+          "tone": "green"
+        },
+        {
+          "id": "full",
+          "label": "Tam kupon",
+          "payout": 300000,
+          "weight": 2,
+          "tone": "gold"
+        },
+        {
+          "id": "maintenanceVoucher",
+          "label": "Bakım kuponu",
+          "payout": 0,
+          "weight": 6,
+          "tone": "blue",
+          "rewardType": "maintenanceCoupon"
+        },
+        {
+          "id": "contractReroll",
+          "label": "Kontrat yenileme",
+          "payout": 0,
+          "weight": 4,
+          "tone": "muted",
+          "rewardType": "contractReroll"
+        }
+      ]
+    },
+    "tombala": {
+      "stake": 8000,
+      "maxPlaysPerDay": 3,
+      "outcomes": [
+        {
+          "id": "none",
+          "label": "Kart boş",
+          "payout": 0,
+          "weight": 45,
+          "tone": "red"
+        },
+        {
+          "id": "line",
+          "label": "Bir sıra",
+          "payout": 20000,
+          "weight": 28,
+          "tone": "blue"
+        },
+        {
+          "id": "half",
+          "label": "Yarım kart",
+          "payout": 70000,
+          "weight": 13,
+          "tone": "green"
+        },
+        {
+          "id": "full",
+          "label": "Minibüsçü tombalası",
+          "payout": 250000,
+          "weight": 3,
+          "tone": "gold"
+        },
+        {
+          "id": "cosmetic",
+          "label": "Kaporta rengi",
+          "payout": 0,
+          "weight": 6,
+          "tone": "blue",
+          "rewardType": "cosmetic",
+          "cosmeticId": "bus-livery-01"
+        },
+        {
+          "id": "eventBox",
+          "label": "Hazırlık kutusu",
+          "payout": 0,
+          "weight": 5,
+          "tone": "gold",
+          "rewardType": "eventPrep",
+          "eventOnly": true
+        }
+      ]
+    }
+  },
+  "npc": {
+    "count": 2,
+    "speedFactors": [
+      0.8,
+      1.1
+    ],
+    "startProgressOffsets": [
+      0.33,
+      0.67
+    ],
+    "passengerTakeRatio": 0.4
+  },
+  "shifts": {
+    "slots": [
+      {
+        "id": "morning",
+        "label": "Sabah",
+        "startHour": 8,
+        "endHour": 16,
+        "legal": true
+      },
+      {
+        "id": "evening",
+        "label": "Ak?am",
+        "startHour": 16,
+        "endHour": 24,
+        "legal": true
+      },
+      {
+        "id": "night",
+        "label": "Gece",
+        "startHour": 0,
+        "endHour": 8,
+        "legal": false
+      }
+    ],
+    "mainBusDailyGrossIncome": 21000,
+    "nightIncomeMultiplier": 0.85,
+    "illegalNightPoliceRiskPerSecond": 0.018
+  },
+  "driving": {
+    "accelerationKmhPerSec": 22,
+    "brakeKmhPerSec": 38,
+    "coastKmhPerSec": 12,
+    "handbrakeKmhPerSec": 70,
+    "maxReverseKmh": 10,
+    "laneOffsetMaxMeters": 0.48,
+    "followGapMeters": 3.05,
+    "slowGapMeters": 6.4,
+    "laneBlockWidthMeters": 1.15,
+    "stopApproachKmh": 12,
+    "maxSteerAngleRad": 0.24,
+    "steerRateRadPerSec": 1.9,
+    "steerReturnRadPerSec": 2.8,
+    "laneRecenterMetersPerSec": 0.72,
+    "steerDriftFactor": 0.3,
+    "crossingClearMarginMeters": 0.6,
+    "roamTurnRateRadPerSec": 1.6,
+    "roamFullTurnKmh": 8,
+    "roamBoundsMeters": 52,
+    "busReservationMinKmh": 2,
+    "trafficStuckLimitSeconds": 3.5,
+    "trafficStoppedSpeed": 0.12,
+    "trafficCreepRatio": 0.35,
+    "roamBlockedSpeedRetention": 0.55
+  },
+  "dayGrading": {
+    "weights": {
+      "safety": 0.25,
+      "timing": 0.2,
+      "satisfaction": 0.2,
+      "stopService": 0.15,
+      "netResult": 0.1,
+      "contractGoals": 0.1
+    },
+    "activeDimensions": [
+      "safety",
+      "timing",
+      "satisfaction",
+      "stopService",
+      "netResult",
+      "contractGoals"
+    ],
+    "thresholds": [
+      {
+        "min": 97,
+        "grade": "S+"
+      },
+      {
+        "min": 93,
+        "grade": "S"
+      },
+      {
+        "min": 88,
+        "grade": "A+"
+      },
+      {
+        "min": 82,
+        "grade": "A"
+      },
+      {
+        "min": 75,
+        "grade": "B+"
+      },
+      {
+        "min": 68,
+        "grade": "B"
+      },
+      {
+        "min": 55,
+        "grade": "C"
+      },
+      {
+        "min": 40,
+        "grade": "D"
+      },
+      {
+        "min": 0,
+        "grade": "F"
+      }
+    ],
+    "eliteBarrier": {
+      "grades": [
+        "S",
+        "S+"
+      ],
+      "minSafety": 90,
+      "minSatisfaction": 80,
+      "cappedGrade": "A+"
+    },
+    "xp": {
+      "baseXp": 60,
+      "gradeMultipliers": {
+        "S+": 2,
+        "S": 1.8,
+        "A+": 1.6,
+        "A": 1.4,
+        "B+": 1.2,
+        "B": 1,
+        "C": 0.7,
+        "D": 0.4,
+        "F": 0.1
+      }
+    },
+    "scoring": {
+      "violationPenaltyPoints": 12,
+      "targetBoardingsPerShift": 40,
+      "targetNetPerShift": 4000
+    }
+  },
+  "contracts": {
+    "maxActive": 2,
+    "offerCount": 4,
+    "recentPoolSize": 5,
+    "levelBands": [
+      {
+        "minLevel": 3,
+        "maxLevel": 6,
+        "targetMultiplier": 1,
+        "rewardMultiplier": 1
+      },
+      {
+        "minLevel": 7,
+        "maxLevel": 11,
+        "targetMultiplier": 1.4,
+        "rewardMultiplier": 1.35
+      },
+      {
+        "minLevel": 12,
+        "maxLevel": 16,
+        "targetMultiplier": 1.9,
+        "rewardMultiplier": 1.8
+      },
+      {
+        "minLevel": 17,
+        "maxLevel": 21,
+        "targetMultiplier": 2.5,
+        "rewardMultiplier": 2.3
+      },
+      {
+        "minLevel": 22,
+        "maxLevel": 26,
+        "targetMultiplier": 3.2,
+        "rewardMultiplier": 2.9
+      },
+      {
+        "minLevel": 27,
+        "maxLevel": 30,
+        "targetMultiplier": 4,
+        "rewardMultiplier": 3.6
+      }
+    ],
+    "families": [
+      {
+        "id": "normalService",
+        "goalType": "board",
+        "targetBase": 22,
+        "baseMoney": 380,
+        "baseXp": 28,
+        "baseReputation": 2,
+        "minLevel": 3,
+        "bonusPool": [
+          "speedBonus",
+          "tipBonus"
+        ]
+      },
+      {
+        "id": "schoolRun",
+        "goalType": "board",
+        "targetBase": 16,
+        "baseMoney": 340,
+        "baseXp": 26,
+        "baseReputation": 2,
+        "minLevel": 3,
+        "bonusPool": [
+          "punctualBonus",
+          "safetyBonus"
+        ]
+      },
+      {
+        "id": "industrialShift",
+        "goalType": "earn",
+        "targetBase": 850,
+        "baseMoney": 460,
+        "baseXp": 34,
+        "baseReputation": 3,
+        "minLevel": 3,
+        "bonusPool": [
+          "speedBonus",
+          "nightBonus"
+        ]
+      },
+      {
+        "id": "hospitalPriority",
+        "goalType": "dur",
+        "targetBase": 9,
+        "baseMoney": 420,
+        "baseXp": 32,
+        "baseReputation": 3,
+        "minLevel": 3,
+        "bonusPool": [
+          "punctualBonus",
+          "safetyBonus"
+        ]
+      },
+      {
+        "id": "festivalCrowd",
+        "goalType": "board",
+        "targetBase": 32,
+        "baseMoney": 560,
+        "baseXp": 38,
+        "baseReputation": 4,
+        "minLevel": 3,
+        "bonusPool": [
+          "tipBonus",
+          "speedBonus"
+        ]
+      },
+      {
+        "id": "weatherDuty",
+        "goalType": "dur",
+        "targetBase": 11,
+        "baseMoney": 440,
+        "baseXp": 33,
+        "baseReputation": 3,
+        "minLevel": 3,
+        "bonusPool": [
+          "safetyBonus",
+          "nightBonus"
+        ]
+      },
+      {
+        "id": "expressTrial",
+        "goalType": "offroute",
+        "targetBase": 3,
+        "baseMoney": 650,
+        "baseXp": 42,
+        "baseReputation": 3,
+        "minLevel": 7,
+        "bonusPool": [
+          "speedBonus",
+          "tipBonus"
+        ]
+      },
+      {
+        "id": "safeDriving",
+        "goalType": "dur",
+        "targetBase": 14,
+        "baseMoney": 500,
+        "baseXp": 36,
+        "baseReputation": 5,
+        "minLevel": 3,
+        "bonusPool": [
+          "safetyBonus",
+          "punctualBonus"
+        ]
+      },
+      {
+        "id": "highSatisfaction",
+        "goalType": "board",
+        "targetBase": 26,
+        "baseMoney": 470,
+        "baseXp": 34,
+        "baseReputation": 4,
+        "minLevel": 3,
+        "bonusPool": [
+          "tipBonus",
+          "punctualBonus"
+        ]
+      },
+      {
+        "id": "driverMentoring",
+        "goalType": "board",
+        "targetBase": 20,
+        "baseMoney": 400,
+        "baseXp": 40,
+        "baseReputation": 3,
+        "minLevel": 6,
+        "bonusPool": [
+          "punctualBonus",
+          "speedBonus"
+        ]
+      },
+      {
+        "id": "routeLegacy",
+        "goalType": "earn",
+        "targetBase": 1150,
+        "baseMoney": 620,
+        "baseXp": 46,
+        "baseReputation": 4,
+        "minLevel": 10,
+        "bonusPool": [
+          "speedBonus",
+          "nightBonus"
+        ]
+      },
+      {
+        "id": "companyContract",
+        "goalType": "earn",
+        "targetBase": 1700,
+        "baseMoney": 880,
+        "baseXp": 58,
+        "baseReputation": 6,
+        "minLevel": 12,
+        "bonusPool": [
+          "tipBonus",
+          "safetyBonus"
+        ]
+      }
+    ],
+    "bonuses": {
+      "speedBonus": {
+        "moneyRatio": 0.2,
+        "xpRatio": 0.15
+      },
+      "safetyBonus": {
+        "moneyRatio": 0.15,
+        "xpRatio": 0.2
+      },
+      "punctualBonus": {
+        "moneyRatio": 0.15,
+        "xpRatio": 0.15
+      },
+      "tipBonus": {
+        "moneyRatio": 0.25,
+        "xpRatio": 0.1
+      },
+      "nightBonus": {
+        "moneyRatio": 0.2,
+        "xpRatio": 0.1
+      }
+    }
+  },
+  "licence": {
+    "maxPoints": 100,
+    "suspensionSeconds": 30,
+    "suspensionFine": 2500,
+    "speeding": { "points": 5, "riskPerSecond": 1, "riskThreshold": 15, "fine": 400 },
+    "offRoute": { "points": 50, "risk": 20, "riskThreshold": 75, "fine": 1200 },
+    "overflow": { "points": 30, "risk": 10, "riskThreshold": 50, "fine": 800 },
+    "shortChange": { "points": 20, "count": 5, "fine": 600 },
+    "riskDecayPerSecond": 1.4
+  },
+  "dayGoals": {
+    "earnings": { "targetNet": 1200, "moneyBonusRatio": 0.2 },
+    "satisfaction": { "targetSatisfaction": 70, "moneyBonusRatio": 0.12 },
+    "safety": { "maxViolations": 0, "moneyBonusRatio": 0.15 }
+  },
+  "progression": {
+    "strategies": {
+      "service": { "satisfactionGainMultiplier": 1.35, "policeRiskMultiplier": 1, "fleetIncomeMultiplier": 1 },
+      "operations": { "satisfactionGainMultiplier": 1, "policeRiskMultiplier": 0.8, "fleetIncomeMultiplier": 1 },
+      "growth": { "satisfactionGainMultiplier": 1, "policeRiskMultiplier": 1, "fleetIncomeMultiplier": 1.2 }
+    },
+    "maxLevel": 30,
+    "levelThresholds": [
+      0,
+      100,
+      300,
+      600,
+      1000,
+      1500,
+      2100,
+      2800,
+      3600,
+      4500,
+      5500,
+      6600,
+      7800,
+      9100,
+      10500,
+      12000,
+      13600,
+      15300,
+      17100,
+      19000,
+      21000,
+      23100,
+      25300,
+      27600,
+      30000,
+      32500,
+      35100,
+      37800,
+      40600,
+      43500
+    ],
+    "milestoneXp": {
+      "company_created": 50,
+      "first_drive": 50,
+      "first_stop_completed": 100,
+      "first_upgrade": 150,
+      "first_driver_hired": 250,
+      "first_bus_bought": 400,
+      "first_route_unlocked": 500
+    },
+    "skillPointLevels": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29
+    ],
+    "unlocks": {
+      "upgrades": {
+        "level": 2,
+        "milestones": [
+          "first_drive"
+        ]
+      },
+      "drivers": {
+        "level": 3,
+        "milestones": [
+          "first_stop_completed"
+        ]
+      },
+      "contracts": {
+        "level": 3,
+        "milestones": [
+          "first_stop_completed"
+        ]
+      },
+      "eveningShift": {
+        "level": 4,
+        "milestones": []
+      },
+      "chanceGames": {
+        "level": 4,
+        "milestones": []
+      },
+      "usedMarket": {
+        "level": 5,
+        "milestones": [
+          "first_upgrade"
+        ]
+      },
+      "driverTraining": {
+        "level": 6,
+        "milestones": [
+          "first_driver_hired"
+        ]
+      },
+      "terminal": {
+        "level": 7,
+        "milestones": [
+          "first_upgrade"
+        ]
+      },
+      "midibus": {
+        "level": 8,
+        "milestones": [
+          "first_upgrade"
+        ]
+      },
+      "routes": {
+        "level": 10,
+        "milestones": [
+          "first_driver_hired"
+        ]
+      },
+      "eventContracts": {
+        "level": 12,
+        "milestones": []
+      },
+      "premium": {
+        "level": 15,
+        "milestones": [
+          "first_bus_bought"
+        ]
+      },
+      "night": {
+        "level": 20,
+        "milestones": [
+          "first_route_unlocked"
+        ]
+      }
+    }
+  },
+  "streak": {
+    "bonusPerDay": 0.03,
+    "maxBonus": 0.3,
+    "graceDays": 1
+  }
+}
