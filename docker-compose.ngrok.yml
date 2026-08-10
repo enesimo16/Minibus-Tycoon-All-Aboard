@@ -1,0 +1,15 @@
+services:
+  minibus-tunnel:
+    image: ngrok/ngrok:latest
+    container_name: minibus-tunnel
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN:?Set NGROK_AUTHTOKEN in .env.ngrok}
+    command:
+      - http
+      - http://127.0.0.1:8081
+      - --log
+      - stdout
+    mem_limit: 128m
+    cpus: 0.25

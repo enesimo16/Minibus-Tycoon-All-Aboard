@@ -2,6 +2,7 @@
 .env
 .env.*
 !.env.example
+!.env.ngrok.example
 !frontend/.env.example
 !frontend/.env.production.example
 !backend/**/.env.example
