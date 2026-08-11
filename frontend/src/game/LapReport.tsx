@@ -22,12 +22,12 @@ export function LapReport() {
 
   return (
     <div
-      className="fixed inset-0 z-[106] grid place-items-center bg-black/45 p-4 backdrop-blur-sm"
+      className="fixed inset-0 z-[106] grid place-items-center overflow-y-auto bg-black/45 p-4 backdrop-blur-sm ff-scroll"
       role="dialog"
       aria-modal="true"
       aria-label={t("lap.title")}
     >
-      <div className="ff-panel-strong w-full max-w-md p-5">
+      <div className="ff-panel-strong my-auto max-h-[calc(100dvh-2rem)] w-full max-w-md overflow-y-auto p-5 ff-scroll">
         <div className="flex items-baseline justify-between gap-3">
           <div>
             <h2 className="ff-display text-xl">{t("lap.title")}</h2>

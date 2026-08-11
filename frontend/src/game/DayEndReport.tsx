@@ -92,8 +92,8 @@ export function DayEndReport() {
   const gradeColor = GRADE_COLORS[report.grade] ?? "#a3a3a3";
 
   return (
-    <div className="fixed inset-0 z-[105] grid place-items-center bg-black/45 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={t("day.reportTitle")}>
-      <div className="ff-panel-strong w-full max-w-md p-5">
+    <div className="fixed inset-0 z-[105] grid place-items-center overflow-y-auto bg-black/45 p-4 backdrop-blur-sm ff-scroll" role="dialog" aria-modal="true" aria-label={t("day.reportTitle")}>
+      <div className="ff-panel-strong my-auto max-h-[calc(100dvh-2rem)] w-full max-w-md overflow-y-auto p-5 ff-scroll">
         <div className="flex items-center justify-between">
           <div>
             <div className="ff-section-title">{t("day.reportTitle")}</div>

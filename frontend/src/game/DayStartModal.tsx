@@ -53,8 +53,8 @@ export function DayStartModal() {
   };
 
   return (
-    <div className="fixed inset-0 z-[105] grid place-items-center bg-black/45 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={t("day.startTitle")}>
-      <div className="ff-panel-strong w-full max-w-md p-5">
+    <div className="fixed inset-0 z-[105] grid place-items-center overflow-y-auto bg-black/45 p-4 backdrop-blur-sm ff-scroll" role="dialog" aria-modal="true" aria-label={t("day.startTitle")}>
+      <div className="ff-panel-strong my-auto max-h-[calc(100dvh-2rem)] w-full max-w-md overflow-y-auto p-5 ff-scroll">
         <h2 className="ff-display text-xl">{t("day.previewTitle")}</h2>
         <p className="mt-1 text-xs text-white/50">{t("day.startSubtitle")}</p>
 
